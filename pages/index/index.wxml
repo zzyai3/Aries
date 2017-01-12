@@ -1,2 +1,6 @@
 <!--index.wxml-->
-
+<view style="padding:30rpx">
+    <view wx:for="{{list}}" style="border:1px red solid;margin:10px 0;padding:10px 10px">
+        <text>{{item.name}}</text>  <text style="margin-left:100rpx">{{item.mic}}</text> 
+    </view>
+</view>
